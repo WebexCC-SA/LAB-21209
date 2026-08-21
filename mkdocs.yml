@@ -1,7 +1,7 @@
 ---
 site_name: "LAB-21209: Build Webex AI Agents with Your Own Custom LLM" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
 site_description: Build Webex AI Agents with Your Own Custom LLM # must be same as "site_name"
-site_author: John Doe
+site_author: Mykola Danylchuk
 copyright: Copyright &copy; 2025 Cisco
 theme:
   name: material
@@ -86,18 +86,23 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Lab:
-      - Overview: overview.md
-      - Lab 1 - Getting Started: lab1_getting_started.md
+  - Getting Started:
+      - Overview: ./main/overview.md
+      - Access your Environment: ./main/PreRequisites.md
       - Conclusion: conclusion.md
-  - Topologies: topologies.md
-  - How to use this guide:
-      - Setting up and using the tool:
-        - Initial Setup: howToUse/initialSetup.md
-        - Using the tool after the initial setup: howToUse/postInitial.md
-        - Publishing your changes: howToUse/syncChanges.md
-      - Styling and Advanced Features:
-        - Markdown and Other References: howToUse/references.md
-        - Custom Features: howToUse/customFeatures.md
-        - Custom Admonitions: howToUse/admonition.md
+  - Configure Autonomous AI Agent:
+      - Autonomous AI Agent:
+          - Guide:
+              - "Overview": ./main/AI_Lab_Overview.md
+              - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
+              - "Mission 2: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
+              - "Mission 3: Configure Fulfillment Using Voice Flow": ./main/AI_Lab_Aut_Voice_Flow_Fulfillment.md
+          - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
+  - Bring Your Own LLM:
+      - Overview: ./main/BYO_LLM_Overview.md
+  - Bonus - Integrate MCP Server:
+      - Guide:
+          - "Overview": ./main/MCP_Server_Overview.md
+          - "Configure Action with MCP": ./main/AI_Lab_Aut_Mission_MCP.md
+      - Conclusion: ./main/MCP_Server_Conclusion.md
  
