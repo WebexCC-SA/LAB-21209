@@ -100,9 +100,9 @@ nav:
           - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
   - Bring Your Own LLM:
       - Overview: ./main/BYO_LLM_Overview.md
-  - Bonus - Integrate MCP Server:
-      - Guide:
-          - "Overview": ./main/MCP_Server_Overview.md
-          - "Configure Action with MCP": ./main/AI_Lab_Aut_Mission_MCP.md
-      - Conclusion: ./main/MCP_Server_Conclusion.md
+  # - Bonus - Integrate MCP Server:
+  #     - Guide:
+  #         - "Overview": ./main/MCP_Server_Overview.md
+  #         - "Configure Action with MCP": ./main/AI_Lab_Aut_Mission_MCP.md
+  #     - Conclusion: ./main/MCP_Server_Conclusion.md
  
