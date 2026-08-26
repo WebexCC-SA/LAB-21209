@@ -3,8 +3,8 @@ function loadem() {
 
     [].forEach.call(document.getElementsByTagName("copy"), function (el) {
         el.addEventListener("click", function (event) {
-            if (event.target.tagName == "COPY") { navigator.clipboard.writeText(event.target.innerText) }
-            if (event.target.tagName == "W") { navigator.clipboard.writeText(event.target.parentNode.innerText) }
+            if (event.target.tagName == "COPY") { navigator.clipboard.writeText(event.target.textContent.trim()) }
+            if (event.target.tagName == "W") { navigator.clipboard.writeText(event.target.parentNode.textContent.trim()) }
         })
     })
 } loadem()
