@@ -2,7 +2,7 @@
 site_name: "LAB-21209: Build Webex AI Agents with Your Own Custom LLM" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
 site_description: Build Webex AI Agents with Your Own Custom LLM # must be same as "site_name"
 site_author: Mykola Danylchuk
-copyright: Copyright &copy; 2025 Cisco
+copyright: Copyright &copy; 2026 Cisco
 theme:
   name: material
   features:

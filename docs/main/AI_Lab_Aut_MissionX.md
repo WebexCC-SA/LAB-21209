@@ -16,50 +16,32 @@ Integrate the AI Agent with the Voice Flow.
 1. Open [Control Hub](https://admin.webex.com){:target="_blank"} and go to **Contact Center** navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
 
-2. One the next page select **Start from scratch** and click on **Next**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.48.a.png)
+2. One the next page select in the Search for the flow that is related to your ID **<copy>AutonomousAI_Flow_21209_<w class="attendee"></w></copy>**. Open the flow by clicking on it. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.48.ab.png)
 
-3. Name the new flow **<copy>AutonomousAI_Flow_21209_<w class="attendee"></w></copy>**, keep the channel as **Voice** and click on **Create Flow**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.48.png)
+3. Click on Edit to start additing the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.48.ac.png)
 
-4. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **Disconnect Contact** activities from the left panel onto the Design field.
-    ![Profiles](../graphics/Lab1_AI_Agent/2.49.a.gif)
+4. Click on **VirtualAgentV2** node and change the Virtual Agent name to the one that is related to your ID - **<copy><w class="attendee"></w>_21209_AutoAI_Lab</copy>**.
 
-5. Connect the nodes and configure **VirtualAgentV2**:
 
-    - Connect the **New Phone Contact** output node edge to this **VirtualAgentV2** node.
-    - Connect the **Handled** outputs to **DisconnectContact**.
-    - Click on the **VirtualAgentV2** block and select **Static Contact Center AI Config**.
-    - Select Contact Center AI Config as **Webex AI Agent (Autonomous)**.
-    - Virtual Agent: **<copy><w class="attendee"></w>\_21209_AutoAI_Lab</copy>**
 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.49.png)
 
-6. Drag and drop **Queue Contact** and **Play Music** nodes. Configure them as the following:
 
-    - **Queue Contact**
-    - Connect the **Escalated** path from the **Virtual Agent V2** activity to the **Queue Contact** activity.
-    - Connect the **Queue Contact** activity to the **Play Music** activity.
-    - Click on the **Queue Contact** node and select Channel as **Voice**. 
-    - Queue type: **Static queue**.
-    - Queue name: **<copy><w class="attendee"></w>\_21209_Voice_Queue</copy>**
-    - **Play Music**
-    - Create a loop by connecting the Play Music activity back to itself - to create a music loop, following the example provided below.
-    - Click on the **Play Music** node and select Music File: **defaultmusic_on_hold_cisco_opus_no_1.wav**.
 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)
 
-7. **Validate** and **Publish** Flow. In the popped up window, click on dropdown menu to select **Latest** label (**DO NOT** Select any other tag but only **Latest**), then click **Publish**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.51.gif)
 
-8. Assign the Flow to your **Entry Point**. Do this by first going to **Entry Point** and search for your channel **<copy><w class="attendee"></w>\_21209_Channel</copy>**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.52.png)
 
-9. Click on **<copy><w class="attendee"></w>\_21209_Channel</copy>**. In the **Entry Point** settings section, change the following and then **Save** the changes.<br/>
-    Routing Flow: **<copy>AutonomousAI_Flow_21209_<w class="attendee"></w></copy>**<br/>
-    Version Label: **Latest**<br/>
-    ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
-10. Dial the support number assigned to your **<w class="attendee"></w>\_21209_Channel** to test the Autonomous AI Agent over a voice call.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.84.png)
+
+
+
+
+
+
+
+
+
+
+
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
