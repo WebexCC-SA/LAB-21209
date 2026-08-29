@@ -77,42 +77,8 @@ In this Mission you will be using the Voice flow to execute the API call to crea
 11. **Publish** your AI Agent.
    ![Profiles](../graphics/Lab1_AI_Agent/19.33.png)
 
-### Task 2. Configure fulfillment logic in the Voice flow.
 
-1. In **Control Hub** go to Flows and open your flow with name **<copy>AutonomousAI_Flow_21209_<w class="attendee"></w></copy>**. Click on **Edit**.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.3.gif)
-
-2. Remove **DisconnectContact** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.4.gif)
-
-
-3. Add **HTTP Request** node and connect the Handled output from **VirtualAgentV2** to the **HTTP Request** node.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.14.gif)
-
-4. Configure the **HTTP Request** with the following:
-
-    - Use authenticated endpoint: **Off**
-    - Request URL: **<copy>https://6a8f2a04a12b7de8cc0f5889.mockapi.io/customerOrder</copy>**
-    - Method: **POST**
-    - Content type: **Application/JSON**
-       ![Profiles](../graphics/Lab1_AI_Agent/19.15.gif)
-
-5. Configure the body of the HTTP request as the Metadata Activity output variable from the **VirtualAgentV2** node. Please see the pictures below.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.16.gif)
-
-6. For this lab we are only using one fulfillment flow. To reconnect the call back to the AI agent and continue the conversation properly, we need to configure the event name. Click on the **VirtualAgentV2** node, scroll down to the bottom and copy the Activity output variable for the event name. Then in the same **VirtualAgentV2** node, open **State event** and paste it under **Event name**. See the pictures below.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.16.1.gif)
-
-7. Next you need to bring the API call results back to your AI agent. For this, click on the **HTTP Request** node, scroll down on the right side and copy the name of the HTTPRequest...ResponseBody. Then go to the **VirtualAgentV2** node, open **State Events**, and insert the HTTP body response into **Event Data** inside of the {% raw %}{{}}{% endraw %}. See the steps on the gif below.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.17_.gif)
-
-8. Enable decryption in the flow so you can monitor details of your further test calls.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.19.gif)
-
-9. **Validate** and **Publish** the flow with the **Latest** tag.
-   ![Profiles](../graphics/Lab1_AI_Agent/19.18.gif)
-
-10. Place a test call to your test number. Ask to order OTC medication and provide the requested information. You should hear that the order was completed successfully. If not, use **Debugger** to troubleshoot.
+12. Place a test call to the number that is related to your Entry Point. Ask to order OTC medication and provide the requested information. You should hear that the order was completed successfully. If not, use **Debugger** in the voice flow to troubleshoot.
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
