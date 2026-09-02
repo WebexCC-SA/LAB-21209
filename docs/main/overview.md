@@ -5,24 +5,10 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-1. In the Chrome browser open the lab access page **<copy>https://lab-assistant.com</copy>**
-
-2. Enter the access code **<copy>163728</copy>** and press **Enter**.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login1.png)
-
-3. Navigate to the **POD** section.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login2.png)
-
-4. Look at the bottom of your right screen; you will see tag with your pod number.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login3.png)
-
-5. Select the pod that is associated with the number tag attached to your screen.
-   ![Profiles](../graphics/Lab1_AI_Agent/Login4.png)
-
-6. Use this Attendee ID and login details to follow the lab. You can copy and paste login credentials and other details into a notepad if this would be convenient for you.
-
+On your screen, look for the file named Credentials_21209_(ID). Open the file; you should see the following information:
    ![Profiles](../graphics/Lab1_AI_Agent/Login5.png)
 
+As the next step, you need to set up your lab for your Attendee ID. In this case, you will all do configuration on the same tenant without interrupting other users.
 <!-- Markdown content with embedded HTML -->
 <div>
     <h3><b>Please submit the Attendee ID below.</b></h3> 
@@ -62,30 +48,6 @@ While traveling to an event, attendees may:
 The Webex AI Agent becomes a single point of contact through a voice call:
 
 **Attendee → Voice Call → Webex AI Agent → Healthcare Services**
-
-### AI Agent Capabilities
-
-- **Collect basic information** about the attendee's health needs and symptoms
-- **Identify when the call should be escalated** to a healthcare professional based on predefined rules
-- **Connect the attendee with their family doctor** when available
-- **Find a partner clinic** and schedule an appointment
-- **Find and order eligible OTC medication** from the pharmacy catalog
-- **Arrange pharmacy pickup or hotel delivery**
-- **Support insurance or self-pay options**
-- **Transfer the caller to a healthcare professional** when needed for complex cases
-
-## Learning Objectives
-
-Welcome to **"Build Webex AI Agents with Your Own Custom LLM - LAB-21209"**
-
-![Profiles](../graphics/NewLab/Overview/1.1.png)
-
-In this lab, participants will: <br><br>
-**• Build an Autonomous AI Agent:** Create and configure a Webex Autonomous AI Agent tailored for event health assistance using your own knowledge base and custom LLM instructions. <br><br>
-**• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous AI Agent to build dynamic, context-aware self-service flows that adapt to attendee health needs in real time. <br><br>
-**• Configure Fulfillment Actions:** Connect the AI Agent to external systems to create medication orders, send confirmations, and complete healthcare service requests. <br><br>
-**• Extend with MCP:** Integrate Model Context Protocol (MCP) tools to look up pharmacy locations and check order status without rebuilding logic in every flow. <br><br>
-**• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to healthcare professionals, ensuring continuous context for effective issue resolution.
 
 ## Disclaimer
 

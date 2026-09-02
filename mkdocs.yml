@@ -88,8 +88,6 @@ nav:
   - Home: index.md
   - Getting Started:
       - Overview: ./main/overview.md
-      - Access your Environment: ./main/PreRequisites.md
-      - Conclusion: conclusion.md
   - Configure Autonomous AI Agent:
       - Autonomous AI Agent:
           - Guide:
