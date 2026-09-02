@@ -47,7 +47,7 @@ While traveling to an event, attendees may:
 
 The Webex AI Agent becomes a single point of contact through a voice call:
 
-**Attendee → Voice Call → Webex AI Agent → Healthcare Services**
+**Caller → Voice Call → Webex AI Agent → Healthcare Services**
 
 ## Disclaimer
 
