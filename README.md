@@ -1,4 +1,4 @@
-# Lab Guide for WebexOne Lab LABXXX-1234
+# LAB-21209: Hands-On AI in Webex Contact Center: Building Connected Experiences from Self-Service to Agent Assistance
 
 Web guide link: https://webexcc-sa.github.io/LAB-21209/
 
