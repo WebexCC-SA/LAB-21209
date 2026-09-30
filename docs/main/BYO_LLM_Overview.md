@@ -5,32 +5,13 @@ icon: material/brain
 
 ## Bring Your Own LLM Overview
 
-Webex AI Agent supports **Bring Your Own LLM (BYOLLM)** — allowing enterprises to use an external Large Language Model for reasoning and generation while Webex manages media, state, and orchestration.
+Bring Your Own LLM (BYO LLM) allows an organization to bring their own LLM to the Webex AI Agent through a **Custom AI Engine**.
 
-This approach is ideal when your organization standardizes on a specific LLM provider but wants to leverage Webex's media, compliance, and contact center integration stack.
+This lab uses **OpenRouter** as the API gateway to the AI models. The OpenRouter workspace is **preconfigured** for **GPT6-Luna** on the instructor's personal account, so that tenant cannot be shared. Mission 1 is **read only** and shows exactly what was done to get the API details for the Webex integration.
 
-### How It Works
+Complete the **Configure Autonomous AI Agent** section first, then work through these missions in order:
 
-- **Webex AI Agent** manages media, state, orchestration, and channel integration.
-- **Your external LLM** handles reasoning, generation, and complex language understanding.
-- **You control** which model drives agent responses across voice and digital channels.
-
-### AI Engine Architecture
-
-| Component | Purpose |
-| --- | --- |
-| Large Language Model | Powers advanced intelligence — understands complex queries, generates responses, performs actions, and answers from knowledge bases |
-| Interim Response Model | Provides instant, real-time responses for a fluid conversational experience |
-| Standalone Query Generator | Transforms incomplete or colloquial inputs into complete, self-contained queries for accurate retrieval |
-
-### In This Lab
-
-In the **Configure Autonomous AI Agent** section, you build the Webex Event Health agent using **Webex AI Pro 1.0**. This section will guide you through connecting your **own custom LLM** as the AI engine for your agent.
-
-!!! note
-    Detailed mission steps for Bring Your Own LLM will be added here. Configure your Autonomous AI Agent first in the preceding section.
-
-### Useful References
-
-- [Webex AI Agent Studio Administration Guide](https://help.webex.com/en-us/article/ncs9r37/Webex-AI-Agent-Studio-Administration-guide){:target="_blank"}
-- [Guidelines and best practices for automating with AI agent](https://help.webex.com/en-us/article/nelkmxk/Guidelines-and-best-practices-for-automating-with-AI-agent){:target="_blank"}
+1. **Mission 1:** Review the preconfigured **OpenRouter** API gateway for **GPT6-Luna**. <span style="color: red;">[Read Only]</span>
+2. **Mission 2:** Register the LLM as an agentic app in the **Webex Developer Portal**.
+3. **Mission 3:** Configure authentication in **Control Hub**.
+4. **Mission 4:** Create the AI Engine in **AI Agent Studio** and assign it to an AI Agent.

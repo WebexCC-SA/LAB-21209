@@ -15,7 +15,6 @@ Configured **actions** to:
 
 Enabled post-order communication by:
 
-- Sending **order confirmation details via SMS**.
 - Arranging **pharmacy pickup or hotel delivery** options.
 - Ensuring a **seamless and efficient attendee experience**.
 

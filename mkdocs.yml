@@ -97,7 +97,13 @@ nav:
               - "Mission 3: Configure Fulfillment Using Voice Flow": ./main/AI_Lab_Aut_Voice_Flow_Fulfillment.md
           - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
   - Bring Your Own LLM:
-      - Overview: ./main/BYO_LLM_Overview.md
+      - Guide:
+          - Overview: ./main/BYO_LLM_Overview.md
+          - "Mission 1: Review OpenRouter API Gateway [Read Only]": ./main/BYO_LLM_Mission_OpenRouter.md
+          - "Mission 2: Register the LLM as an Agentic App": ./main/BYO_LLM_Mission1.md
+          - "Mission 3: Configure Authentication in Control Hub": ./main/BYO_LLM_Mission2.md
+          - "Mission 4: Create and Assign the Custom AI Engine": ./main/BYO_LLM_Mission3.md
+      - Conclusion: ./main/BYO_LLM_Conclusion.md
   # - Bonus - Integrate MCP Server:
   #     - Guide:
   #         - "Overview": ./main/MCP_Server_Overview.md
