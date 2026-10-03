@@ -43,7 +43,7 @@ Your mission is to:
 6. Don't make any changes on the next page. Just click **Next**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_25.png)
 
-7. Select your custom LLM that is related to your ID from the list.
+7. Select your custom LLM that is related to your ID from the list. Search for **<copy><w class="attendee"></w>\_21209_CustomLLM</copy>**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_26.png)
 
 8. In **Model name**, provide the exact LLM name that you saw in OpenRouter. Please review Mission 1, step 8. In this lab it is **<copy>openai/gpt-6-luna</copy>**.

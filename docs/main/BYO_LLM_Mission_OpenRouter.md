@@ -39,7 +39,7 @@ For this lab, the instructor uses a **personal OpenRouter account** with **perso
 5. Copy the API key. You will need it for authentication with Webex.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_4.png)
 
-6. Click **Models**. Search for the model that you want to use with your Webex AI Agent. For this lab we will be using **GPT6-Luna**, because this model is fast, capable, and inexpensive. For your own use cases, you can select faster models that will give you a better customer experience.
+6. Click **Models**. Search for the model that you want to use with your Webex AI Agent. For this lab we will be using **GPT6-Luna**, because this model is fast, capable, and inexpensive. For your own use cases, you can select faster models that will give you a better customer experience. You can also use cheaper models for use cases where the speed of the answer and the quality of the response are less critical.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_5.png)
 
 7. If you select the model and click **API > cURL**, you will see the base URL for the OpenRouter completions service. You will use this URL in the next mission while creating the agentic app in the Webex Developer Portal.

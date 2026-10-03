@@ -1,11 +1,9 @@
 ### AI Autonomous Agent Overview
 
-The Autonomous AI Agent can handle various tasks, including:
+In this part of the lab you will configure a **Webex Autonomous AI Agent** with a **knowledge base** and **fulfillment**. The agent will use the **standard built-in LLM engine**.
 
-- Natural Language Processing (NLP) — Understand and respond to human language in a natural and conversational manner.
-- Decision making — Make informed choices based on available information and predefined rules.
-- Automation — Automate repetitive or time-consuming tasks.
+You will create the agent, attach knowledge and fulfillment and connect it to the voice flow, so it can complete tasks such as creating a medication order.
 
-## Story
+In the next part of the lab, **Bring Your Own LLM**, you will switch the **AI engine** on this same agent so it uses an **external LLM**. The agent configuration stays in place. Only the engine in the background changes.
 
-You are designing a Webex Autonomous AI agent for **Webex Event Health** — a health assistance service for Cisco event attendees traveling away from their regular healthcare providers. This AI agent will collect basic health information, recommend eligible OTC medications, arrange pharmacy pickup or hotel delivery, and escalate to a healthcare professional when predefined rules require it.
+In [Collaboration Control Hub](https://admin.webex.com){:target="_blank"}, under the **Contact Center** service, click **Overview**, and on the right side click **Webex AI Agent**.

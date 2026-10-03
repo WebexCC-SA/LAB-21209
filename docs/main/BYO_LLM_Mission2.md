@@ -28,9 +28,8 @@ Your mission is to:
 4. Make it **Allowed for all users**, enable **Authorize automatic server data updates**, and click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_20.png)
 
-### Task 2. Configure authentication
 
-1. Open the **Authentication** tab. Select **API key** as the authentication method and enter the API key you copied from OpenRouter in Mission 1. Click **Save**.
+5. Open the **Authentication** tab. Select **API key** as the authentication method and enter the API key you copied from OpenRouter in Mission 1. Click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_21.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
