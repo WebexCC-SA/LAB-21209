@@ -5,7 +5,7 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-On your screen, look for the file named **Webex_One_AI_Attendee_(ID)**. Open the file.<br>
+On your screen, look for the file named **Webex_One_Lab_21209_Attendee_(ID)**. Open the file.<br>
     ![Profiles](../graphics/Lab1_AI_Agent/Login5-1.png)
 
 Open the file; you should see the following information related to your ID.
