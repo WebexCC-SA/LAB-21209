@@ -29,7 +29,7 @@ Your mission is to:
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_20.png)
 
 
-5. Open the **Authentication** tab. Select **API key** as the authentication method and enter the OpenRouter API key. You will see the OpenRouter key in the credentials file **Webex_One_Lab_21209_Attendee_(ID)**. Click **Save**.
+5. Open the **Authentication** tab. Select **API key** as the authentication method and enter the OpenRouter API key. You will see the OpenRouter key in the file with your credentials. Click **Save**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_21.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
