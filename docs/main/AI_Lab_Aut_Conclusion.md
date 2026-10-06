@@ -22,4 +22,4 @@ Enabled post-order communication by:
 
 This setup showcases a complete AI agent workflow — from health intake to medication fulfillment and attendee notification — using **Webex Contact Center's Autonomous AI Agent** capabilities.
 
-Continue to **Bring Your Own LLM** and **Integrate MCP Server** to extend your agent with a custom LLM and external MCP tools.
+Continue to **Bring Your Own LLM** to extend your agent with a custom LLM.

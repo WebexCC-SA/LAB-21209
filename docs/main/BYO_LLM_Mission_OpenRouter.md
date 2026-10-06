@@ -25,27 +25,27 @@ For this lab, the instructor uses a **personal OpenRouter account** with **perso
 
 ### Task 1. Review the OpenRouter gateway configuration
 
-1. Open [OpenRouter](https://openrouter.ai/){:target="_blank"}. Log in, or create an account to log in.
+1. <span style="color: red;">[Read Only]</span> Open [OpenRouter](https://openrouter.ai/){:target="_blank"}. Log in, or create an account to log in.
 
-2. You will be prompted to add billing details. Add your billing card and buy some credits.
+2. <span style="color: red;">[Read Only]</span> You will be prompted to add billing details. Add your billing card and buy some credits.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_1.png)
 
-3. Click **API Key** and create a new **API key**.
+3. <span style="color: red;">[Read Only]</span> Click **API Key** and create a new **API key**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_2.png)
 
-4. Fill in the required fields and click **Create**.
+4. <span style="color: red;">[Read Only]</span> Fill in the required fields and click **Create**.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_3.png)
 
-5. Copy the API key. You will need it for authentication with Webex.
+5. <span style="color: red;">[Read Only]</span> Copy the API key. You will need it for authentication with Webex.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_4.png)
 
-6. Click **Models**. Search for the model that you want to use with your Webex AI Agent. For this lab we will be using **GPT6-Luna**, because this model is fast, capable, and inexpensive. For your own use cases, you can select faster models that will give you a better customer experience. You can also use cheaper models for use cases where the speed of the answer and the quality of the response are less critical.
+6. <span style="color: red;">[Read Only]</span> Click **Models**. Search for the model that you want to use with your Webex AI Agent. For this lab we will be using **GPT6-Luna**, because this model is fast, capable, and inexpensive. For your own use cases, you can select faster models that will give you a better customer experience. You can also use cheaper models for use cases where the speed of the answer and the quality of the response are less critical.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_5.png)
 
-7. If you select the model and click **API > cURL**, you will see the base URL for the OpenRouter completions service. You will use this URL in the next mission while creating the agentic app in the Webex Developer Portal.
+7. <span style="color: red;">[Read Only]</span> If you select the model and click **API > cURL**, you will see the base URL for the OpenRouter completions service. You will use this URL in the next mission while creating the agentic app in the Webex Developer Portal.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_6.png)
 
-8. In addition to the base URL for the completions service, you also need the URL suffix that is specific to this model. You can find it on the same page, right after the model name. See the screenshot. You will use this URL extension in Mission 4 when you create the Custom AI Engine.
+8. <span style="color: red;">[Read Only]</span> In addition to the base URL for the completions service, you also need the URL suffix that is specific to this model. You can find it on the same page, right after the model name. See the screenshot. You will use this URL extension in Mission 4 when you create the Custom AI Engine.
 ![Profiles](../graphics/Lab1_AI_Agent/OpenR_7.png)
 
 <p style="text-align:center"><strong>You have reviewed the OpenRouter setup. Continue to Mission 2.</strong></p>
